@@ -46,7 +46,7 @@ class TeamTree:
                 return True
             else:
                 print(f"The {side} side of {manager_name} is already taken.")
-                return False
+                return True
 
         if current_node.left is not None:
             if self.insert(manager_name, employee_name, side, current_node.left):
@@ -58,8 +58,9 @@ class TeamTree:
  
         if current_node == self.root:
             print(f"Manager {manager_name} was not found.")
-            
+
         return False
+
 
     def print_tree(self, node=None, level=0):
         if node is None:
