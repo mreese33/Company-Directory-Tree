@@ -1,21 +1,21 @@
 For this assignment, I created a company directory using a binary tree to organize employees 
-and show who reports to who. Each employee has their own node that stores their name along 
-with a left and right position. I used the TeamTree class to manage the structure and keep
-track of the team lead at the top.
+and show who reports to who. Each employee has their own node that stores their name along with 
+a left and right position. I used the TeamTree class to manage the structure and keep track of the
+ team lead at the top.
 
 The recursive insertion worked by starting at the root and checking if the current employee 
-matched the manager's name. If the names matched, the program checked whether the requested side 
-was available before adding the new employee. If the names didn't match, the program would search 
-through the left and right sides until it found the correct manager. Recursion was useful because 
-the same process could be repeated at different levels without having to write separate code for 
-each level. I also used recursion to print the tree and show the reporting structure.
+matched the manager's name. If the names matched, the program checked whether the requested
+ side was available before adding the new employee. If the names didn't match, the program would 
+ search through the left and right sides until it found the correct manager. Recursion was useful 
+ because the same process could be repeated at different levels without having to write separate
+  code for each level. I also used recursion to print the tree and show the reporting structure.
 
 One of the biggest challenges I faced was getting the indentation correct because even small 
-spacing mistakes caused errors. I also had to make sure the program was searching for the correct 
-manager and wasn't adding employees to positions that were already taken. I added error messages 
-to help identify these problems instead of allowing incorrect information into the tree.
+spacing mistakes caused errors. I also had to make sure the program was searching for the correct
+ manager and wasn't adding employees to positions that were already taken. I added error messages 
+ to help identify these problems instead of allowing incorrect information into the tree.
 
 I think trees are useful when information has a clear hierarchy. For example, companies can use 
-them to organize employees, while computers use similar structures for folders and files. Compared 
-to a regular list, a tree makes it easier to see relationships between different levels. Overall,
-this assignment helped me understand recursion and how trees can organize information.
+them to organize employees, while computers use similar structures for folders and files. Compared
+ to a regular list, a tree makes it easier to see relationships between different levels. Overall, 
+ this assignment helped me understand recursion and how trees can organize information.
