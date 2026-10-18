@@ -1,0 +1,17 @@
+For this assignment, I created a company directory using a binary tree to organize employees 
+and show who reports to who. Each employee had their own node that stored their name and had 
+two possible spots for other employees to be added.
+The recursive insertion worked by starting at the top of the tree and checking if the 
+employee matched the manager I was looking for. If it was the correct manager, the program 
+would check if the left or right side was open before adding the new employee. If it wasn't the 
+right manager, the program would keep searching through the tree until it found them. I also used 
+recursion to print out the employees and show how everyone was organized.
+One of the biggest challenges I had was getting the code to run correctly. I struggled with the 
+indentation a few times, which caused errors when I tried running the program. I also had to make 
+sure the program was actually finding the correct manager before adding someone. Another issue was
+making sure the program gave an error message if the manager didn't exist or if a spot was
+already taken.
+I think trees can be useful in situations where information needs to be organized into different 
+levels. For example, companies can use them to show who reports to who, or computers can use them 
+to organize files and folders. Overall, this assignment helped me better understand how trees and 
+recursion work together.
